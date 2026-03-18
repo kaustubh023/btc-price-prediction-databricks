@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Databricks / MLflow
+mlruns/
+mlartifacts/
+.databricks/
+*.dbc
+*.iml
+
+# Environment variables / secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.yaml
+secrets.json
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temp files (Databricks saves plots here)
+/tmp/
+*.png
+*.jpg
+*.jpeg
+
+# Delta / Parquet data files
+*.parquet
+*.delta
+_delta_log/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Test / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
