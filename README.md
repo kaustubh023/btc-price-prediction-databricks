@@ -313,7 +313,7 @@ Page: *BTC Price Analysis* | Status: Published
 ---
 
 ## License
-
+ 
 MIT License — free to use, modify, and distribute.
 
 ---
